@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = "<div class='social'> <a target='_blank' href='tel:+15405585943'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>+15405585943</label></div> </a> <a href='mailto:vasundharag@vt.edu'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Vasundharag17'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/15405585943'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/vasundhara-gowrishankar-422ba3189/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vasundhara Gowrishankar.pdf</label></div><a href='assets/VasundharaGowrishankarResume.pdf' download='Vasundhara_Gowrishankar_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vasundhara_G_PM_VT_V2.pdf</label></div><a href='assets/VasundharaGowrishankarResume.pdf' download='Vasundhara_Gowrishankar_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d-80.42030782694444!3d37.244533616913095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1en!2en' class='map'></iframe></div><label class='add'><address>University Terrace<br>Blacksburg<br>Virginia, USA 24060</address>";
 function startFunction() {
     setLastSeen();
@@ -72,7 +72,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vasundhara Gowrishankar</a>.</span><br><br>I am a Computer Science student at <span class='bold'>Virginia Tech 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering space.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>I'm <span class='bold'><a class='alink'>Vasundhara Gowrishankar</a> (you can call me Vasu).</span><br><br>I am a Computer Science student at <span class='bold'>Virginia Tech 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the product/project management space.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -82,7 +82,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing Masters in Computer Science. <br> <br>I can comfortably write code in following languages : <br> <span class='bold'>Java <br>Javascript <br>SQL <br>Python <br>CSS <br>HTML </span> <br> <br>Few of my favourite Libraries and Frameworks: <span class='bold'> <br>ReactJs <br>ExpressJs <br>PassportJs <br>MongoDB <br>NodeJS </span> <br> <br>Tools that I use regularly: <span class='bold'> <br>GitLab CI-CD <br>Docker <br>Figma <br>Git </span> <br> <br>Favourite IDE: <span class='bold'> <br>VSCode </span></span>");
+            sendTextMessage("<span class='sk'>I’m a product manager passionate about creating impactful, user-centric solutions.<br> <br>I am well-versed with these technologies: <br> <span class='bold'>Python <br>SQL <br>Generative AI <br>Salesforce </span> <br> <br>I am a pro when it comes to these methodologies: <span class='bold'> <br>User Research <br>Data Analysis <br>Product Lifecycle Management <br>Product Strategy</span><br> <be> Tools that I use regularly: <span class='bold'> <br>Tableau <br>Jira <br>Figma <br>Jira </span> <br> <br>Favourite pass time: <span class='bold'> <br>Learn about psychology <br>Challenge ChatGPT with my prompting skills!</span></span>");
             break;
 
         case "education":
