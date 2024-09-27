@@ -82,11 +82,11 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I’m a product manager passionate about creating impactful, user-centric solutions.<br> <br>I am well-versed with these technologies: <br> <span class='bold'>Python <br>SQL <br>Generative AI <br>Salesforce </span> <br> <br>I am a pro when it comes to these methodologies: <span class='bold'> <br>User Research <br>Data Analysis <br>Product Lifecycle Management <br>Product Strategy</span><br> <be> Tools that I use regularly: <span class='bold'> <br>Tableau <br>Jira <br>Figma <br>Jira </span> <br> <br>Favourite pass time: <span class='bold'> <br>Learn about psychology <br>Challenge ChatGPT with my prompting skills!</span></span>");
+            sendTextMessage("<span class='sk'>I’m a product manager passionate about creating impactful, user-centric solutions.<br> <br>I am well-versed with these technologies: <br> <span class='bold'>Python <br>SQL <br>Generative AI <br>Salesforce </span> <br> <br>I am a pro when it comes to these methodologies: <span class='bold'> <br>User Research <br>Data Analysis <br>Product Lifecycle Management <br>Product Strategy</span><br> <br> Tools that I use regularly: <span class='bold'> <br>Tableau <br>Jira <br>Figma <br>Jira </span> <br> <br>Favourite pass time: <span class='bold'> <br>Learn about psychology <br>Challenge ChatGPT with my prompting skills!</span></span>");
             break;
 
         case "education":
-            sendTextMessage("I am currently pusuing Masters degree in Computer Science from Virginia Tech<br>Graduating Year: May 2025<br><br>I have completed my Bachelors from National Institute of Engineering<br>Passing Year:2019<br>CGPA:8.4/10");
+            sendTextMessage("I am currently pursuing Masters degree in Computer Science from Virginia Tech<br>Graduating Year: May 2025<br><br>I have completed my Bachelors from National Institute of Engineering<br>Passing Year:2019<br>CGPA:8.4/10");
             break;
 
         case "address":
